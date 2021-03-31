@@ -1,0 +1,559 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+/* BackGround Colors */
+
+.bg-dark {
+    background-color: #525252;
+}
+
+.bg-light {
+    background-color: antiquewhite;
+}
+
+.bg-lightblue {
+    background-color: #00ffee;
+}
+
+
+/* Text Colors */
+
+.T-dark {
+    color: #525252;
+}
+
+.T-light {
+    color: antiquewhite;
+}
+
+.T-lightblue {
+    color: #00ffee;
+}
+
+.T-orange {
+    color: #ff7b00;
+}
+
+.T-red {
+    color: red;
+}
+
+
+/* Body */
+
+body {
+    font-family: Poppins;
+}
+
+
+/* COver Start */
+
+.main-cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(../img/background.png);
+    background-blend-mode: darken;
+    background-color: whitesmoke;
+}
+
+.main-cover h1 {
+    font-size: 4.5rem;
+    color: white;
+}
+
+.main-cover h4 {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.Icons-1 {
+    position: absolute;
+    font-size: 1.5rem;
+    color: white;
+    bottom: 7%;
+}
+
+.Icons-2 {
+    position: absolute;
+    font-size: 1.5rem;
+    color: white;
+    bottom: 0;
+    animation: vert-move 1s infinite alternate;
+}
+
+@keyframes vert-move {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+
+/* Cover ENd*/
+
+.Resume-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    justify-content: center;
+    align-self: center;
+    font-size: 3rem;
+    margin-top: 15%;
+}
+
+
+/* NavBar CSS */
+
+
+/* The sidebar menu */
+
+.navbar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+#navigation {
+    height: 50px;
+}
+
+.nav-link {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 1;
+    background-color: #212529;
+}
+
+@media screen and (max-height: 450px) {
+    .sidebar {
+        padding-top: 15px;
+    }
+    .sidebar a {
+        font-size: 18px;
+    }
+}
+
+
+/* Navbar CSS END */
+
+
+/* REsume Design Start */
+
+.resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin-top: 10vh;
+    flex-direction: column;
+}
+
+.Education {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.edu-heading {
+    align-self: center;
+    font-size: 2rem;
+}
+
+
+/* Card CSS Start */
+
+.card {
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+    background-color: gray;
+    width: 250px;
+    margin-top: 10vh;
+}
+
+.Wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+.Skill {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.s-card {
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+    margin-top: 5vh;
+    width: 280px;
+}
+
+.s-Wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+
+/* .detail {
+    padding-right: 50px;
+} */
+
+.s-detail {
+    padding-left: 50px;
+}
+
+.skill-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.other-skill-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    flex-direction: column;
+}
+
+.skill-item {
+    flex-basis: 100px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Card CSS END */
+
+
+/* Profile Card CSs Start */
+
+.Profile {
+    width: 90vw;
+    height: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 50px grey;
+    margin: 15% 0 2% 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10%;
+    flex-wrap: wrap;
+}
+
+.profile-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile-pic {
+    background-image: url(../img/naitiki.png);
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    width: 29vw;
+    height: 17vh;
+}
+
+.Title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.data {
+    display: none;
+}
+
+.Type {
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: .25rem solid grey;
+    animation: Typing 4.5s steps(13, end) forwards;
+}
+
+@keyframes Typing {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 13ch;
+    }
+}
+
+.info {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10%;
+}
+
+.info-item {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.info-content {
+    display: flex;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 10px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contact-button {
+    margin-top: 5vh;
+    position: relative;
+    margin-bottom: 5vh;
+}
+
+.button {
+    padding: 10px;
+    cursor: pointer;
+    border: 5px solid cyan;
+    box-sizing: border-box;
+}
+
+
+/* Profile Card Css END */
+
+
+/* Projects Css Start */
+
+.Projects {
+    margin-top: 10vh;
+}
+
+.Project-Grid {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 90%;
+}
+
+.project-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px cyan;
+    width: 35vw;
+    gap: 10px;
+    flex-basis: 250px;
+}
+
+.card-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+/* contact us */
+
+.Contact {
+    margin-top: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 10px;
+    width: 90vw;
+    padding: 0px 100px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    gap: 40px;
+}
+
+.input-field {
+    border: none;
+    outline: none;
+    padding: 10px 0;
+    background-color: transparent;
+    position: relative;
+    border-bottom: 0.15rem solid black;
+    align-self: flex-start;
+    width: 100%;
+    color: black;
+}
+
+.Message {
+    width: 300px;
+    height: 100px;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.07);
+    border-color: -moz-use-text-color #FFFFFF #FFFFFF -moz-use-text-color;
+    border-image: none;
+    border-radius: 6px 6px 6px 6px;
+    border-style: none solid solid none;
+    border-width: medium 1px 1px medium;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12) inset;
+    color: #555555;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    line-height: 1.4em;
+    padding: 5px 8px;
+    transition: background-color 0.2s ease 0s;
+}
+
+.Message:focus {
+    background: none repeat scroll 0 0 #FFFFFF;
+    outline-width: 0;
+}
+
+.contact-side {
+    display: none;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.submit-button {
+    width: 100%;
+    align-self: center;
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+/* Contact us over */
+
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212529;
+    margin-top: 15vh;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer-link {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-link a {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    background-color: #f5f6fa;
+    text-align: center;
+    overflow: hidden;
+    line-height: 45px;
+    position: relative;
+    cursor: pointer;
+}
+
+.footer-link a em {
+    font-size: 1.5rem;
+}
+
+.fa-instagram {
+    color: #e84393;
+}
+
+.fa-linkedin {
+    color: #0097e6;
+}
+
+.fa-facebook-f {
+    color: blue;
+}
+
+
+/* Footer end */

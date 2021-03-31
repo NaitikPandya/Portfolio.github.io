@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 900px)" href="css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 600px)" href="css/small_screen.css">
+    <script src="https://kit.fontawesome.com/5fed3530c3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <title>My.Portfolio</title>
+</head>
+
+<body>
+
+    <section class="main-cover page-section">
+
+        <div>
+            <h1><span class="T-red">N</span>aitik <span class="T-red">P</span>andya</h1>
+        </div>
+        <div>
+            <h4>Web & Android Devloper</h4>
+        </div>
+
+        <div class="Icons-1">
+            <em class="bi bi-mouse T-size-25"></em>
+        </div>
+        <div class="Icons-2"><em class="bi bi-chevron-double-down T-size-25"></em></div>
+    </section>
+
+    <section id="Resume-start" class="Resume-container page-section">
+
+        <header id="navigation">
+            <a style="text-decoration: none; padding: 10px; margin-top: 10px;" class="show" onclick="openNav()"><em style="font-size: 2.5rem; color:white" class="bi bi-list"></em></a>
+            <nav id="nav" class="navbar">
+                <ul class="navbar-nav">
+                    <a href="javascript:void(0)" class="closebtn show nav-link" onclick="closeNav()">&times;</a>
+                    <li class="nav-li"><a href="#" onclick="closeNav()" class="nav-link active-light dark" id="home">Home</a></li>
+                    <li class="nav-li"><a href="#Resume-start" onclick="closeNav()" class="nav-link dark" id="resume">Resume</a></li>
+                    <li class="nav-li"><a href="#profile-start" onclick="closeNav()" class="nav-link dark" id="profile">Profile</a></li>
+                    <li class="nav-li"><a href="#project-start" onclick="closeNav()" class="nav-link dark" id="project">Projects</a></li>
+                    <li class="nav-li"><a href="#Contact-us" onclick="closeNav()" class="nav-link dark" id="contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <h1 class="heading">Resume</h1>
+        <div data-aos="fade-up" data-aos-duration="3000" class="resume">
+            <div class="Education">
+                <h1 class="edu-heading">Education</h1>
+                <div data-aos="flip-left" class="card">
+                    <div class="Wrapper">
+                        <div class="logo">
+                            <img src="img/Charusat.png" width="130px" height="130px" alt="Charusat" />
+                        </div>
+                        <div class="detail">
+                            <h1>Charusat</h1>
+                            <h4>B.tech</h4>
+                            <h5>Pursuing</h5>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="flip-left" class="card">
+                    <div class="Wrapper">
+                        <div class="logo">
+                            <img src="img/Kalyan.jpeg" width="130px" height="130px" alt="Kalyan" />
+                        </div>
+                        <div class="detail">
+                            <h1>Kalyan Polytechnic</h1>
+                            <h4>Diploma</h4>
+                            <h5>Pursued with 8.54 CGPA</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Skill">
+                <h1 class="edu-heading">Skills</h1>
+                <div data-aos="flip-right" class="s-card">
+                    <h1 style="margin-left: 5%;">Technical Skills</h1>
+                    <div class="s-Wrapper">
+                        <div class="s-detail">
+                            <ul class="skill-list">
+                                <li class="skill-item">
+                                    <h5>Html</h5>
+                                    <div>
+                                        <em class="bi bi-star-fill"></em>
+                                        <em class="bi bi-star-fill"></em>
+                                        <em class="bi bi-star-fill"></em>
+                                        <em class="bi bi-star-fill"></em>
+                                        <em class="bi bi-star"></em>
+                                    </div>
+                                </li>
+                                <li class="skill-item">
+                                    <h5>Java</h5>
+                                    <div>
+                                        <em class="bi bi-star-fill"></em>
+                                        <em class="bi bi-star-fill"></em>
+                                        <em class="bi bi-star-fill"></em>
+                                        <em class="bi bi-star-fill"></em>
+                                        <em class="bi bi-star"></em>
+                                    </div>
+                                </li>
+                                <li class="skill-item">
+                                    <h5>Android</h5>
+                                    <div>
+                                        <em class="bi bi-star-fill"></em>
+                                        <em class="bi bi-star-fill"></em>
+                                        <em class="bi bi-star-fill"></em>
+                                        <em class="bi bi-star-fill"></em>
+                                        <em class="bi bi-star"></em>
+                                    </div>
+                                </li>
+                                <li class="skill-item">
+                                    <h5>Firebase</h5>
+                                    <div>
+                                        <em class="bi bi-star-fill"></em>
+                                        <em class="bi bi-star-fill"></em>
+                                        <em class="bi bi-star-fill"></em>
+                                        <em class="bi bi-star-fill"></em>
+                                        <em class="bi bi-star"></em>
+                                    </div>
+                                </li>
+                                <li class="skill-item">
+                                    <h5>MySQL</h5>
+                                    <div>
+                                        <em class="bi bi-star-fill"></em>
+                                        <em class="bi bi-star-fill"></em>
+                                        <em class="bi bi-star-fill"></em>
+                                        <em class="bi bi-star-half"></em>
+                                        <em class="bi bi-star"></em>
+                                    </div>
+                                </li>
+                                <li class="skill-item">
+                                    <h5>Css</h5>
+                                    <div>
+                                        <em class="bi bi-star-fill"></em>
+                                        <em class="bi bi-star-fill"></em>
+                                        <em class="bi bi-star-fill"></em>
+                                        <em class="bi bi-star"></em>
+                                        <em class="bi bi-star"></em>
+                                    </div>
+                                </li>
+                                <li class="skill-item">
+                                    <h5>PHP</h5>
+                                    <div>
+                                        <em class="bi bi-star-fill"></em>
+                                        <em class="bi bi-star-fill"></em>
+                                        <em class="bi bi-star-half"></em>
+                                        <em class="bi bi-star"></em>
+                                        <em class="bi bi-star"></em>
+                                    </div>
+                                </li>
+                                <li class="skill-item">
+                                    <h5>Javascript</h5>
+                                    <div>
+                                        <em class="bi bi-star-fill"></em>
+                                        <em class="bi bi-star-fill"></em>
+                                        <em class="bi bi-star-half"></em>
+                                        <em class="bi bi-star"></em>
+                                        <em class="bi bi-star"></em>
+                                    </div>
+                                </li>
+                                <li class="skill-item">
+                                    <h5>Flutter</h5>
+                                    <div>
+                                        <em class="bi bi-star-fill"></em>
+                                        <em class="bi bi-star-fill"></em>
+                                        <em class="bi bi-star"></em>
+                                        <em class="bi bi-star"></em>
+                                        <em class="bi bi-star"></em>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="flip-right" class="s-card">
+                    <h1 style="margin-left: 5%;">Other Skills</h1>
+                    <div class="s-Wrapper">
+                        <div class="s-detail">
+                            <ul class="other-skill-list">
+                                <li class="o-s-item">Problem Solving</li>
+                                <li class="o-s-item">Presentaions</li>
+                                <li class="o-s-item">Management</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="profile-start" data-aos="zoom-out" data-aos-duration="2000" class="Profile page-section">
+
+        <div class="profile-head">
+            <div class="profile-pic">
+
+            </div>
+            <div class="Title">
+                <h1 class="Type">Naitik Pandya</h1>
+                <h4>Web & Android</h4>
+                <h5>Work Experience: 0</h5>
+                <h5>Projects : 6</h5>
+                <h5 class="data">I would like explore new opportunity that will assist me in developing,<br>improving, and obtaining the necessary skills in order to become<br> the best engineer possible.
+                </h5>
+            </div>
+        </div>
+        <div class="info">
+
+            <div class="info-item">
+                <h2>Email</h2>
+                <div class="info-content">
+                    <em class="bi bi-envelope"></em>
+                    <h5>naitikpandya23@gmail.com</h5>
+                </div>
+            </div>
+            <div class="info-item">
+                <h2>Mobile</h2>
+                <div class="info-content">
+                    <em class="bi bi-telephone"></em>
+                    <h5>7622969377</h5>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="Contact-button">
+                <h2 class="button">Contact Us</h2>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="project-start" class="Projects page-section">
+        <h1 style="font-size:3rem; text-align: center;">Projects</h1>
+        <div class="Project-Grid">
+            <div class="project-card">
+                <div class="Card-icon">
+                    <img src="img/html.png" alt="WEB" height="150px" width="150px" />
+                </div>
+                <div class="card-content">
+                    <h1>Digital Marketing</h1>
+                    <h4></h4>
+                    <h5>Technology</h5>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="Card-icon">
+                    <img src="img/html.png" alt="WEB" height="150px" width="150px" />
+                </div>
+                <div class="card-content">
+                    <h1>Title</h1>
+                    <h4>Description</h4>
+                    <h5>Technology</h5>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="Card-icon">
+                    <img src="img/Android.png" alt="Android" height="100px" width="150px" />
+                </div>
+                <div class="card-content">
+                    <h1>Learn With Fun wiht(3D)</h1>
+                    <h6>The Application target childern they can learn<br> serval things with the 3D view and interesting sound<br> 3D model Like: Human body Parts , Vechicle , Fruits etc.</h6>
+                    <h5>Technology : Android Studio & Java</h5>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="Card-icon">
+                    <img src="img/Android.png" alt="Android" height="100px" width="150px" />
+                </div>
+                <div class="card-content">
+                    <h1>Scorer - all in one</h1>
+                    <h6>A platform to host different local sport Tournaments and update live Score.<br> The Organizer can add Teams , Matches , Player.<br> Player can also Make Their Profile Grow.</h6>
+                    <h5>Technology : Android Studio & Java</h5>
+                    <h5>Database : Firebase</h5>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="Card-icon">
+                    <img src="img/Android.png" alt="Android" height="100px" width="150px" />
+                </div>
+                <div class="card-content">
+                    <h1>Family Tracker</h1>
+                    <h6>The idea to develop this Application is come from<br> the obervation of Covid-19 Through so Developed a Application for Family <br> Pre-defined Login Account and limit to family members only .</h6>
+                    <h5>Technology : Android Studio & Java</h5>
+                    <h5>Database : Firebase</h5>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="Card-icon">
+                    <img src="img/flutter.png" alt="Flutter" height="100px" width="150px" />
+                </div>
+                <div class="card-content">
+                    <h1>Study From Home</h1>
+                    <h6>The idea to develop this application is provide a platform to<br> Student & Teacher to Share Assignment,Lecture Videos & notes so <br> Student can easily study.Also Provided The Quiz Option in application .</h6>
+                    <h5>Technology : Flutter</h5>
+                    <h5>Database : Firebase</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Contact-us" class="Contact page-section">
+
+        <div>
+
+            <form action="" class="contact-form">
+                <h1 style="align-self: center;">Contact Us</h1>
+                <div class="form-input">
+                    <label for="">Email</label>
+                    <input type="text" class="input-field animate" id="email" placeholder="Example@domain.com">
+                </div>
+                <div class="form-input">
+                    <label for="">Subject</label>
+                    <input type="text" class="input-field animate" id="Subject" placeholder="Regarding Work">
+                </div>
+                <textarea class="Message animate" id="Message" placeholder="Hi my name is Xyz i want a website/android application within budget with specific Requerment."></textarea>
+                <div class="submit-button">
+                    <div class="submit">Send</div>
+                </div>
+            </form>
+        </div>
+        <div class="contact-side">
+            <img src="img/Contact-Us.jpg" alt="Contact US" width="650px" height="450px" />
+        </div>
+
+
+    </section>
+
+    <section class="footer">
+        <div class="footer-link">
+            <a href="https://www.facebook.com/naitik.pandya.96"><em class="fa fa-2x fa-facebook-f"></em></a>
+            <a href="https://www.instagram.com/naitik._.01/"><em class="fa fa-2x fa-instagram"></em></a>
+            <a href="https://github.com/NaitikPandya"><em class="fa fa-2x fa-github"></em></a>
+            <a href="https://www.linkedin.com/in/naitik-pandya-84a6a713a/"><em class="fa fa-2x fa-linkedin"></em></a>
+        </div>
+    </section>
+    <!-- Placeholder Animation -->
+    <script src="js/app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- Scroll Header Script -->
+    <script>
+        window.onscroll = function() {
+            myFunction()
+        };
+
+        var navbar1 = document.getElementById("navigation");
+        var navbar = document.getElementById("nav");
+        var home = document.getElementById("home");
+        var resume = document.getElementById("resume");
+        var profile = document.getElementById("profile")
+        var project = document.getElementById("project");
+        var contact = document.getElementById("contact");
+        var sticky = navbar.offsetTop;
+
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar1.classList.add("sticky");
+                home.classList.add("light");
+                project.classList.add("light");
+                contact.classList.add("light");
+                profile.classList.add("light");
+                resume.classList.add("light");
+                home.classList.add("light-hover");
+                project.classList.add("light-hover");
+                contact.classList.add("light-hover");
+                profile.classList.add("light-hover");
+                resume.classList.add("light-hover");
+            } else {
+                navbar1.classList.remove("sticky");
+                home.classList.remove("light");
+                project.classList.remove("light");
+                contact.classList.remove("light");
+                profile.classList.remove("light");
+                resume.classList.remove("light");
+                home.classList.remove("light-hover");
+                project.classList.remove("light-hover");
+                contact.classList.remove("light-hover");
+                profile.classList.remove("light-hover");
+                resume.classList.remove("light-hover");
+            }
+        }
+    </script>
+
+    <!-- Active Link Change -->
+    <script>
+        var btns =
+            $("#navigation .navbar-nav .nav-link");
+
+        for (var i = 1; i < btns.length; i++) {
+            btns[i].addEventListener("click",
+                function() {
+                    var current = document
+                        .getElementsByClassName("active-light");
+
+                    current[0].className = current[0]
+                        .className.replace("active-light", "");
+
+                    this.className += " active-light";
+                });
+        }
+
+
+        $(window).scroll(function() {
+            var distance = $(window).scrollTop();
+            $('.page-section').each(function(i) {
+
+
+                if ($(this).position().top <=
+                    distance + 250) {
+
+                    $('.navbar-nav a.active-light')
+                        .removeClass('active-light');
+
+                    $('.navbar-nav a').eq(i + 1)
+                        .addClass('active-light');
+                }
+
+
+            });
+        }).scroll();
+    </script>
+
+    <!-- Mobile Navigation -->
+
+    <script>
+        function openNav() {
+            document.getElementById("nav").style.width = "250px";
+            document.getElementById("Resume-start").style.marginLeft = "250px";
+        }
+
+
+        function closeNav() {
+            document.getElementById("nav").style.width = "0";
+            document.getElementById("Resume-start").style.marginLeft = "0";
+        }
+    </script>
+
+
+</body>
+
+</html>
