@@ -59,7 +59,9 @@ body {
     align-items: center;
     flex-direction: column;
     height: 100vh;
-    background-image: url(../img/background.png);
+    background-image: url(../img/mobile_portfolio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-blend-mode: darken;
     background-color: whitesmoke;
 }
